@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link href='https://css.gg/airplane.css' rel='stylesheet'>
+    <link href='https://css.gg/flag-alt.css' rel='stylesheet'>
+    <link href='https://css.gg/dollar.css' rel='stylesheet'>
+    <link href='https://css.gg/smartphone-shake.css' rel='stylesheet'>
+    <link href='https://css.gg/attachment.css' rel='stylesheet'>
+    <link href='https://css.gg/alarm.css' rel='stylesheet'>
+    <link href='https://css.gg/shopping-cart.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="level is-vcentered header-format">
+
+            <!-- Level-left section -->
+            <div class="level-left">
+                <div class="level-item">
+                    <div class="image is-128x128 mt-custom ml-5">
+                        <a href="#"><img src="/html-css-bulma/Klook.png" alt="klook-logo"></a>
+                    </div>
+                </div>
+
+                <div class="level-item">
+                    <div class="control is-expanded has-icons-left">
+                        <span class="select is-fullwidth is-small">
+                            <select name="country" id="country">
+                                <option value="destinations"> Explore destinations </option>
+                                <option value="option-1"> Option 1 </option>
+                                <option value="option-2"> Option 2 </option>
+                                <option value="option-3"> Option 3 </option>
+                                <option value="option-4"> Option 4 </option>
+                            </select>
+                        </span>
+                        <span class="icon is-small is-left">
+                            <i class="gg-airplane"></i>
+                        </span>
+                    </div>
+                    <div class="control ml-1">
+                        <button type="submit" class="button is-info is-small"> Search </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Level-right section-->
+            <div class="level-right">
+                <div class="level-item">
+                    <div class="control has-icons-left">
+                        <span class="select is-fullwidth is-small is-light">
+                            <select name="language" id="language">
+                                <option value="english"> English </option>
+                                <option value="option-1"> Option 1 </option>
+                                <option value="option-2"> Option 2 </option>
+                                <option value="option-3"> Option 3 </option>
+                                <option value="option-4"> Option 4 </option>
+                            </select>
+                        </span>
+                        <span class="icon is-left is-small">
+                            <i class="gg-flag-alt"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="level-item">
+                    <div class="control has-icons-left">
+                        <span class="select is-fullwidth is-small is-light">
+                            <select name="currency" id="currency">
+                                <option value="dollar"> Dollar </option>
+                                <option value="option-1"> Option 1 </option>
+                                <option value="option-2"> Option 2 </option>
+                                <option value="option-3"> Option 3 </option>
+                                <option value="option-4"> Option 4 </option>
+                            </select>
+                        </span>
+                        <span class="icon is-left is-small">
+                            <i class="gg-dollar"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="level-item">
+                    <button class="button is-light">
+                        <span class="icon is-left is-smaller">
+                            <i class="gg-smartphone-shake"></i>
+                        </span>
+                        <a class="is-size-7 has-text-grey-dark" href="#"> Download app</a>
+                    </button>
+                </div>
+
+                <div class="level-item">
+                    <button class="button is-light">
+                        <span class="icon is-left is-smaller pb-1">
+                            <i class="gg-attachment"></i>
+                        </span>
+                        <a class="is-size-7 has-text-grey-dark" href="#"> Help </a>
+                    </button>
+                </div>
+
+                <div class="level-item">
+                    <button class="button is-light">
+                        <span class="icon is-left is-smaller pt-1">
+                            <i class="gg-alarm"></i>
+                        </span>
+                        <a class="is-size-7 has-text-grey-dark" href="#"> Recently viewed </a>
+                    </button>
+                </div>
+
+                <div class="level-item">
+                    <button class="button is-light">
+                        <span class="icon is-left is-smaller">
+                            <i class="gg-shopping-cart"></i>
+                        </span>
+                        <a class="is-size-7 has-text-grey-dark" href="#"> Cart </a>
+                    </button>
+                </div>
+
+                <div class="level-item">
+                    <button class="button is-link is-outlined">
+                        <p class="is-size-7"> login </p>
+                    </button>
+                </div>
+
+                <div class="level-item">
+                    <button class="button is-link is-outlined">
+                        <p class="is-size-7"> signup </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero is-light is-bold is-medium">
+
+            <!-- Hero-head section -->
+            <div class="hero-head">
+                <div class="navbar">
+                    <div class="navbar-start">
+
+                        <div class="navbar-item">
+                            <button class="button is-white">
+                                <span class="icon is-left is-smaller pb-1">
+                                    <i class="gg-attachment"></i>
+                                </span>
+                                <a class="is-size-7 has-text-grey-dark" href="#"> Menu </a>
+                            </button>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="control is-expanded has-icons-left">
+                                <span class="select is-fullwidth is-small">
+                                    <select name="categories" id="categories">
+                                        <option value="all-categories"> All Categories </option>
+                                        <option value="option-1"> Option 1 </option>
+                                        <option value="option-2"> Option 2 </option>
+                                        <option value="option-3"> Option 3 </option>
+                                        <option value="option-4"> Option 4 </option>
+                                    </select>
+                                </span>
+                                <span class="icon is-small is-left">
+                                    <i class="gg-airplane"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="control is-expanded has-icons-left">
+                                <span class="select is-fullwidth is-small">
+                                    <select name="experiences" id="experiences">
+                                        <option value="experiences"> Experiences </option>
+                                        <option value="option-1"> Option 1 </option>
+                                        <option value="option-2"> Option 2 </option>
+                                        <option value="option-3"> Option 3 </option>
+                                        <option value="option-4"> Option 4 </option>
+                                    </select>
+                                </span>
+                                <span class="icon is-small is-left">
+                                    <i class="gg-airplane"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="control is-expanded has-icons-left">
+                                <span class="select is-fullwidth is-small">
+                                    <select name="transport" id="transport">
+                                        <option value="transport"> Transport </option>
+                                        <option value="option-1"> Option 1 </option>
+                                        <option value="option-2"> Option 2 </option>
+                                        <option value="option-3"> Option 3 </option>
+                                        <option value="option-4"> Option 4 </option>
+                                    </select>
+                                </span>
+                                <span class="icon is-small is-left">
+                                    <i class="gg-airplane"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="control is-expanded has-icons-left">
+                                <span class="select is-fullwidth is-small">
+                                    <select name="accommodation" id="accommodation">
+                                        <option value="accommodation"> Accommodation </option>
+                                        <option value="option-1"> Option 1 </option>
+                                        <option value="option-2"> Option 2 </option>
+                                        <option value="option-3"> Option 3 </option>
+                                        <option value="option-4"> Option 4 </option>
+                                    </select>
+                                </span>
+                                <span class="icon is-small is-left">
+                                    <i class="gg-airplane"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="control is-expanded has-icons-left">
+                                <span class="select is-fullwidth is-small">
+                                    <select name="more-to-explore" id="more-to-explore">
+                                        <option value="more-to-explore"> More to Explore </option>
+                                        <option value="option-1"> Option 1 </option>
+                                        <option value="option-2"> Option 2 </option>
+                                        <option value="option-3"> Option 3 </option>
+                                        <option value="option-4"> Option 4 </option>
+                                    </select>
+                                </span>
+                                <span class="icon is-small is-left">
+                                    <i class="gg-airplane"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero-body section -->
+            <div class="hero-body is-custom-grouped">
+                <div class="container has-text-centered">
+                    <p class="is-size-1 is-custom-font has-text-grey"> Yours to Explore </p>
+                    <p class="is-size-6 is-custom-font has-text-grey pt-3"> Discover and book amazing things-to-do at
+                        exclusive prices </p>
+                    <div class="field is-grouped pt-6">
+                        <div class="control has-icons-left is-custom-width">
+                            <input class="input is-medium" type="text" placeholder="Search destination or activities">
+                            <span class="icon is-small is-left">
+                                <i class="gg-airplane"></i>
+                            </span>
+                        </div>
+                        <div class="control">
+                            <button class="button is-info is-medium is-custom-btn-width">
+                                <a class="is-size-6" href="#"> Search </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
+                    <button class="button is-rounded is-info is-normal is-custom-btn-round mt-5">
+                        <a class="is-size-7" href="#"> Explore more of Philippines </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- First section -->
+        <div class="section">
+            <div class="container">
+                <div class="columns is-custom-centered">
+                    <div class="column is-light has-text-centered">
+                        <p class="is-size-6 is-custom-font"> <strong> A world of possibilities </strong> </p>
+                        <p class="is-size-6 is-custom-font has-text-grey"> Discover activities across the globe </p>
+                    </div>
+                    <div class="column is-light has-text-centered">
+                        <p class="is-size-6 is-custom-font"> <strong> Best price guaranteed </strong> </p>
+                        <p class="is-size-6 is-custom-font has-text-grey"> On over 10,000 things to do and more </p>
+                    </div>
+                    <div class="column is-light has-text-centered">
+                        <p class="is-size-6 is-custom-font"> <strong> Seamless booking </strong> </p>
+                        <p class="is-size-6 is-custom-font has-text-grey"> Easy e-voucher entry and safe booking </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Second Section -->
+        <div class="section pt-1">
+            <div class="container">
+                <a href="#"><img src="/html-css-bulma/banner.jpg" alt="banner-image"></a>
+            </div>
+        </div>
+
+        <!-- Third Section -->
+        <div class="section pt-1">
+            <div class="container">
+
+                <p class="is-size-4 is-custom-font has-text-grey"> Incredible destinations </p>
+                <div class="columns has-text-centered pt-6">
+                    <div class="column ">
+                        <a href="#">
+                            <img src="/html-css-bulma/Destinations/Manila.webp" alt="manila">
+                            <p class="is-size-6 is-custom-font has-text-grey"> Manila </p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#">
+                            <img src="/html-css-bulma/Destinations/Tagaytay.webp" alt="Tagaytay">
+                            <p class="is-size-6 is-custom-font has-text-grey"> Tagaytay </p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#">
+                            <img src="/html-css-bulma/Destinations/Rizal.webp" alt="Rizal">
+                            <p class="is-size-6 is-custom-font has-text-grey"> Rizal </p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#">
+                            <img src="/html-css-bulma/Destinations/Cebu.webp" alt="Cebu">
+                            <p class="is-size-6 is-custom-font has-text-grey"> Cebu </p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#">
+                            <img src="/html-css-bulma/Destinations/Batangas.webp" alt="Batangas">
+                            <p class="is-size-6 is-custom-font has-text-grey"> Batangas </p>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="#">
+                            <img src="/html-css-bulma/Destinations/Davao.webp" alt="Davao">
+                            <p class="is-size-6 is-custom-font has-text-grey"> Davao </p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="control has-text-centered pt-3">
+                    <button class="button is-custom-btn-width2">
+                        <a class="has-text-grey" href="#">Explore all destinations</a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Fourth Section -->
+        <div class="section">
+            <div class="container">
+
+                <p class="is-size-4 is-custom-font has-text-grey"> Top things to do</p>
+                <div class="columns pt-6">
+                    <div class="column">
+                        <a href="#">
+                            <div class="box is-custom-box">
+                                <img src="/html-css-bulma/Top-things-to-do/Enchanted-kingdom.webp" alt="Enchanted-kingdom"
+                                    class="is-custom-img">
+                                <span class="tag is-small is-white pl-3"> Attractions - Manila </span>
+                                <p class="is-custom-font is-custom-title-size pl-3">Enchanted Kingdom Ticket in Laguna
+                                </p>
+                                <div class="is-custom-inner-column pl-3">
+                                    <div class="control">
+                                        <button class="button is-rounded is-light is-custom-btn-width3 has-icons-left">
+                                            <span class="icon is-left is-small">
+                                                <i class=""></i>
+                                            </span>
+                                            <p class="is-custom-font pl-1"> 4.7 </p>
+                                        </button>
+                                    </div>
+                                    <p class="is-size-7 is-custom-font has-text-grey pl-1 pt-1">5,181 reviews | 100k+
+                                        booked</p>
+                                </div>
+                                <span class="tags are-small pl-3 pt-1">
+                                    <span class="tag is-primary is-light"> Bestseller </span>
+                                    <span class="tag"> Instant confirmation </span>
+                                </span>
+                                <p class="is-size-7 is-custom-font pt-3 pl-3"> <strong> 450.00 </strong></p>
+                                <p class="is-size-7 is-custom-font pl-3 pb-3"> Book now for 9 Jan 2021 </p>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="column">
+                        <a href="#">
+                            <div class="box is-custom-box">
+                                <img src="/html-css-bulma/Top-things-to-do/Luljetta.webp" alt="Luljetta"
+                                    class="is-custom-img-2">
+                                <span class="tag is-small is-white pl-3"> Relaxation & Beauty - Rizal </span>
+                                <p class="is-custom-font is-custom-title-size pl-3">Luljetta's Hanging Garden Spa Day
+                                    Tour</p>
+                                <div class="is-custom-inner-column pl-3">
+                                    <div class="control">
+                                        <button class="button is-rounded is-light is-custom-btn-width3 has-icons-left">
+                                            <span class="icon is-left is-small">
+                                                <i class=""></i>
+                                            </span>
+                                            <p class="is-custom-font pl-1"> 4.9 </p>
+                                        </button>
+                                    </div>
+                                    <p class="is-size-7 is-custom-font has-text-grey pl-1 pt-1">6,341 reviews | 6k+
+                                        booked</p>
+                                </div>
+                                <span class="tags are-small pl-3 pt-1">
+                                    <span class="tag is-primary is-light"> Bestseller </span>
+                                    <span class="tag"> Instant confirmation </span>
+                                </span>
+                                <p class="is-size-7 is-custom-font pt-3 pl-3"> <strong> 895.00 </strong></p>
+                                <p class="is-size-7 is-custom-font pl-3 pb-3"> Book now for 9 Jan 2021 </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column">
+                        <a href="#">
+                            <div class="box is-custom-box">
+                                <img src="/html-css-bulma/Top-things-to-do/Dahilayan.webp" alt="Dahilayan"
+                                    class="is-custom-img">
+                                <span class="tag is-small is-white pl-3"> Attractions - Cagayan De Oro </span>
+                                <p class="is-custom-font is-custom-title-size pl-3">Dahilayan Adventure Park Ticket in
+                                    Cagayan</p>
+                                <div class="is-custom-inner-column pl-3">
+                                    <div class="control">
+                                        <button class="button is-rounded is-light is-custom-btn-width3 has-icons-left">
+                                            <span class="icon is-left is-small">
+                                                <i class=""></i>
+                                            </span>
+                                            <p class="is-custom-font pl-1"> 4.7 </p>
+                                        </button>
+                                    </div>
+                                    <p class="is-size-7 is-custom-font has-text-grey pl-1 pt-1">2,038 reviews | 2k+
+                                        booked</p>
+                                </div>
+                                <span class="tags are-small pl-3 pt-1">
+                                    <span class="tag is-primary is-light"> Bestseller </span>
+                                    <span class="tag"> Instant confirmation </span>
+                                </span>
+                                <p class="is-size-7 is-custom-font pt-3 pl-3"> <strong> 180.00 </strong></p>
+                                <p class="is-size-7 is-custom-font pl-3 pb-3"> Book now for 16 Jan 2021 </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="column">
+                        <a href="#">
+                            <div class="box is-custom-box">
+                                <img src="/html-css-bulma/Top-things-to-do/Club Balai.webp" alt="Club-balai"
+                                    class="is-custom-img">
+                                <span class="tag is-small is-white pl-3"> Hotels & more - Batangas </span>
+                                <p class="is-custom-font is-custom-title-size pl-3">Club Balai Isabel (Overnight Stay)
+                                </p>
+                                <div class="pl-3 pt-1">
+                                    <span class="tag"> Instant confirmation </span> 
+                                </div>
+                                <p class="is-size-7 is-custom-font is-custom-padding pl-3"> <strong> 3,729.00 </strong>
+                                </p>
+                                <p class="is-size-7 is-custom-font pl-3 pb-3"> Book now for 16 Jan 2021 </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="control has-text-centered pt-6">
+                    <button class="button is-custom-btn-width2">
+                        <a class="has-text-grey" href="#">View all</a>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Insert other sections here-->
+    </main>
+</body>
+
+</html>
